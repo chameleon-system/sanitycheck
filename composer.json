@@ -1,0 +1,44 @@
+{
+    "name": "chameleon-system/sanitycheck",
+    "type": "library",
+    "description": "Performs checks to ensure the system is configured correctly and all external resources are available",
+    "keywords": [
+        "sanity",
+        "check",
+        "monitoring",
+        "administration"
+    ],
+    "homepage": "http://www.chameleon-system.de",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ESONO AG",
+            "email": "info@chameleonsystem.com",
+            "homepage": "https://www.chameleonsystem.com",
+            "role": "Company"
+        }
+    ],
+    "extra": {
+        "name": "Chameleon SanityCheck",
+        "dev_info_installation": "",
+        "dev_info_usage": "",
+        "pricegroup": 0,
+        "public": false,
+        "screenshotfolder_id": ""
+    },
+    "require": {
+        "psr/log": "~1.0",
+        "symfony/translation": "~2.3|~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.2|~6.0|~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChameleonSystem\\SanityCheck\\": [
+                "src",
+                "tests"
+            ]
+        }
+    }
+}

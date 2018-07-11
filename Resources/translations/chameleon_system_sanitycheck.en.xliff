@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+    <file source-language="en" target-language="en" datatype="plaintext"
+          original="chameleon_system_sanitycheck.en.xliff">
+        <body>
+            <trans-unit id="check.disk_space.invalid_strategy">
+                <source>check.disk_space.invalid_strategy</source>
+                <target>Invalid strategy when checking disk space: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.disk_space.lowspace">
+                <source>check.disk_space.lowspace</source>
+                <target>On drive %0%, there is not much space left: %1%</target>
+            </trans-unit>
+            <trans-unit id="check.disk_space.nodirectory">
+                <source>check.disk_space.nodirectory</source>
+                <target>\"%0%\" is no directory.</target>
+            </trans-unit>
+            <trans-unit id="check.disk_space.ok">
+                <source>check.disk_space.ok</source>
+                <target>There is enough disk space.</target>
+            </trans-unit>
+            <trans-unit id="check.disk_space.totalzero">
+                <source>check.disk_space.totalzero</source>
+                <target>The total capacity of drive %0% is 0.</target>
+            </trans-unit>
+            <trans-unit id="check.expression.nottrue">
+                <source>check.expression.nottrue</source>
+                <target>Expression is not satisfied: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.expression.ok">
+                <source>check.expression.ok</source>
+                <target>Checked expressions are ok.</target>
+            </trans-unit>
+            <trans-unit id="check.file_exists.notexists">
+                <source>check.file_exists.notexists</source>
+                <target>File does not exist: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.file_exists.ok">
+                <source>check.file_exists.ok</source>
+                <target>All requested files exist.</target>
+            </trans-unit>
+            <trans-unit id="check.file_permission.invalidtype">
+                <source>check.file_permission.invalidtype</source>
+                <target>Unknown permission type: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.file_permission.notexecutable">
+                <source>check.file_permission.notexecutable</source>
+                <target>File is not executable: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.file_permission.notreadable">
+                <source>check.file_permission.notreadable</source>
+                <target>File is not readable: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.file_permission.notwritable">
+                <source>check.file_permission.notwritable</source>
+                <target>File is not writable: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.file_permission.ok">
+                <source>check.file_permission.ok</source>
+                <target>File permission checks were successful.</target>
+            </trans-unit>
+            <trans-unit id="check.php_module_loaded.notloaded">
+                <source>check.php_module_loaded.notloaded</source>
+                <target>PHP module not loaded: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.php_module_loaded.ok">
+                <source>check.php_module_loaded.ok</source>
+                <target>All required PHP modules are loaded.</target>
+            </trans-unit>
+            <trans-unit id="check.php_version.invalidversion">
+                <source>check.php_version.invalidversion</source>
+                <target>The installed PHP version is not supported: %0%</target>
+            </trans-unit>
+            <trans-unit id="check.php_version.ok">
+                <source>check.php_version.ok</source>
+                <target>The installed PHP version is supported.</target>
+            </trans-unit>
+            <trans-unit id="level.10">
+                <source>level.10</source>
+                <target>OK</target>
+            </trans-unit>
+            <trans-unit id="level.20">
+                <source>level.20</source>
+                <target>NOTICE</target>
+            </trans-unit>
+            <trans-unit id="level.30">
+                <source>level.30</source>
+                <target>WARNING</target>
+            </trans-unit>
+            <trans-unit id="level.40">
+                <source>level.40</source>
+                <target>ERROR</target>
+            </trans-unit>
+            <trans-unit id="level.80">
+                <source>level.80</source>
+                <target>EXCEPTION</target>
+            </trans-unit>
+            <trans-unit id="level.90">
+                <source>level.90</source>
+                <target>OFF</target>
+            </trans-unit>
+            <trans-unit id="message.checknotfound">
+                <source>message.checknotfound</source>
+                <target>Check not found: %0%</target>
+            </trans-unit>
+            <trans-unit id="message.exception">
+                <source>message.exception</source>
+                <target>An exception occurred: %0%</target>
+            </trans-unit>
+            <trans-unit id="message.mailsubject">
+                <source>message.mailsubject</source>
+                <target>Sanity check found issues</target>
+            </trans-unit>
+            <trans-unit id="message.nochecks">
+                <source>message.nochecks</source>
+                <target>No checks found.</target>
+            </trans-unit>
+            <trans-unit id="message.nooutcome">
+                <source>message.nooutcome</source>
+                <target>No check outcome has been returned.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
