@@ -15,15 +15,14 @@ use ChameleonSystem\SanityCheck\Check\CheckInterface;
 use ChameleonSystem\SanityCheck\Exception\CheckNotFoundException;
 
 /**
- * CheckResolverInterface defines a service which can be used to discover sanity checks that
- * were previously registered through the service container.
+ * Defines a service which can be used to discover sanity checks. How checks are discovered is up to implementations.
  */
 interface CheckResolverInterface
 {
     /**
      * Finds checks that are identified by the given name.
      *
-     * @param string $name A Symfony service identifier or a bundle name (e.g. "@AcmeDemoBundle")
+     * @param string $name Name to resolve
      *
      * @return CheckInterface[]
      *
@@ -32,9 +31,9 @@ interface CheckResolverInterface
     public function findChecksForName($name);
 
     /**
-     * Finds checks for every name in the $name array. Each name may be a Symfony service identifier or a bundle name.
+     * Finds checks for every name in the $name array.
      *
-     * @param array $nameList List of names to resolve (Symfony service identifiers or bundle names)
+     * @param array $nameList List of names to resolve
      *
      * @return CheckInterface[]
      *
@@ -43,7 +42,7 @@ interface CheckResolverInterface
     public function findChecksForNameList(array $nameList);
 
     /**
-     * Finds all checks defined in the application.
+     * Finds all checks in the scope of this resolver.
      *
      * @return CheckInterface[]
      */
