@@ -6,7 +6,7 @@ requirements for running the application are met continuously. For example, avai
 permissions or availability of remote systems can be checked.
 
 When and where these checks are performed is up to you. In an installer, from the command line or an admin
-interface - just add the checks wherever they suit your needs.
+interface - checks can be added wherever needed.
 
 Documentation
 -------------
