@@ -52,7 +52,6 @@ class ExpressionCheck extends AbstractCheck
                 } catch (\ParseError $e) {
                     $retValue[] = new CheckOutcome('check.expression.nottrue', array('%0%' => $expression), $this->getLevel());
                 }
-
             } else {
                 if (!@eval('return '.$expression.';')) {
                     $retValue[] = new CheckOutcome('check.expression.nottrue', array('%0%' => $expression), $this->getLevel());
