@@ -1,8 +1,8 @@
 Chameleon System SanityCheck
 ============================
 
-SanityCheck adds diagnosis capabilities to any PHP application. By defining a range of checks, it can be ensured that
-requirements for running the application are met continuously. For example, available disk space, granted file
+SanityCheck adds diagnosis capabilities to any PHP application. By defining a number of checks, it can be ensured that
+requirements for running the application are met continuously. For example available disk space, granted file
 permissions or availability of remote systems can be checked.
 
 When and where these checks are performed is up to you. In an installer, from the command line or an admin
