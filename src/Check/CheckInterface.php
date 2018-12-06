@@ -15,11 +15,13 @@ use ChameleonSystem\SanityCheck\Outcome\CheckOutcome;
 
 /**
  * CheckInterface defines a common interface for all types of checks.
+ * Implementations define what to check, given individual configuration data (e.g. there is a check that finds out if
+ * a directory is writable or a configuration parameter holds an expected value).
  */
 interface CheckInterface
 {
     /**
-     * Perform this check.
+     * Performs this check and returns one or more CheckOutcome objects.
      *
      * @return CheckOutcome[]
      */

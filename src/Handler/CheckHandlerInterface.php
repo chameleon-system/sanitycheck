@@ -14,7 +14,7 @@ namespace ChameleonSystem\SanityCheck\Handler;
 use ChameleonSystem\SanityCheck\Outcome\CheckOutcome;
 
 /**
- * CheckHandlerInterface Defines a service that performs sanity checks.
+ * Defines a service that manages and performs sanity checks.
  */
 interface CheckHandlerInterface
 {
@@ -26,7 +26,7 @@ interface CheckHandlerInterface
     public function checkAll();
 
     /**
-     * Performs a check on the given check items. The parameter array contains
+     * Performs checks on the given check items.
      * Adds an outcome on level ERROR if a check could not be found.
      *
      * @param string[] $checkNames check identifiers and/or bundle names
@@ -37,7 +37,7 @@ interface CheckHandlerInterface
     public function checkSome(array $checkNames);
 
     /**
-     * Performs a check on the given check item. $checkName
+     * Performs a check on the given check item.
      * Note that multiple CheckOutcomes may be returned depending on the check.
      * Adds an outcome on level ERROR if a check could not be found.
      *
