@@ -14,7 +14,7 @@ namespace ChameleonSystem\SanityCheck\Suite;
 use ChameleonSystem\SanityCheck\Output\CheckOutputInterface;
 
 /**
- * CheckSuiteInterface defines a service which is meant to simplify the execution of a check.
+ * Defines a service which is meant to simplify the execution of a check.
  * Implementations should provide a functionality to be configured with checks and outputs, and then handle
  * the checks and write the outcomes when the execute() method is called.
  */
