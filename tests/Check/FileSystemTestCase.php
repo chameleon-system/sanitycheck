@@ -58,7 +58,7 @@ class FileSystemTestCase extends TestCase
     public static $isWritable = array();
     public static $isExecutable = array();
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
