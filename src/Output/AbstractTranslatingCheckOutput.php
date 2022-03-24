@@ -13,7 +13,7 @@ namespace ChameleonSystem\SanityCheck\Output;
 
 use ChameleonSystem\SanityCheck\Outcome\CheckOutcome;
 use ChameleonSystem\SanityCheck\Translation\TranslatorFactory;
-use Symfony\Component\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 /**
  * AbstractTranslatingCheckOutput provides basic functionality for translating messages. Derive from this class if you
