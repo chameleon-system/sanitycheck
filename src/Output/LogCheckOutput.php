@@ -16,7 +16,7 @@ use ChameleonSystem\SanityCheck\Formatter\PlainOutputFormatter;
 use ChameleonSystem\SanityCheck\Outcome\CheckOutcome;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
-use Symfony\Component\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 /**
  * LogCheckOutput is used to write a CheckOutcome to a log file.

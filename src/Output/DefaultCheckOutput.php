@@ -14,7 +14,7 @@ namespace ChameleonSystem\SanityCheck\Output;
 use ChameleonSystem\SanityCheck\Formatter\OutputFormatterInterface;
 use ChameleonSystem\SanityCheck\Formatter\PlainOutputFormatter;
 use ChameleonSystem\SanityCheck\Outcome\CheckOutcome;
-use Symfony\Component\Translation\TranslatorInterface;
+use Symfony\Contracts\Translation\TranslatorInterface;
 
 /**
  * DefaultCheckOutput is used to echo a CheckOutcome to the current output (usually browser or console).
