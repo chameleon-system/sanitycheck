@@ -78,7 +78,7 @@ class PhpModuleLoadedCheckTest extends TestCase
         $this->assertEquals($expectedOutcomeList, $actualOutcomeList);
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         self::$extensionLoaded = array();

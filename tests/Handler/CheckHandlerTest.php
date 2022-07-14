@@ -184,7 +184,7 @@ class CheckHandlerTest extends TestCase
         $this->assertEquals($expectedOutcomeList[1][0]->getLevel(), $outcomeList[1]->getLevel());
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->checkResolver = $this->prophesize(

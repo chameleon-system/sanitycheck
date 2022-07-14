@@ -118,7 +118,7 @@ class CheckResolverTest extends TestCase
         $this->assertEquals($revealedCheck3, $checks[2]);
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->checkResolver = new CheckResolver();

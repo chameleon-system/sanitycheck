@@ -87,7 +87,7 @@ class PhpRuntimeVersionCheckTest extends TestCase
         $this->phpRuntimeVersionCheck = new PhpRuntimeVersionCheck(CheckOutcome::ERROR, $version);
     }
 
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         self::$phpversion = '5.3.9';
