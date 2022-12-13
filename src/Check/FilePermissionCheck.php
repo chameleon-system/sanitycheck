@@ -89,7 +89,7 @@ class FilePermissionCheck extends AbstractCheck
      *
      * @return bool
      */
-    private function checkPermission(array &$retValue, $filePath, $permission)
+    private function checkPermission(array $retValue, $filePath, $permission)
     {
         $isOk = true;
         switch ($permission) {
